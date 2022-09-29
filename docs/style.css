@@ -1,0 +1,19 @@
+.header {
+    background-color: antiquewhite;
+}
+
+
+.section {
+    background-color: azure;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+
+.main {
+    background-color: aqua;
+    float: left;
+    width: 70%;
+    height: 100%;
+}
