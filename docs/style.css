@@ -1,19 +1,120 @@
+body {
+    color:antiquewhite;
+    font-family: belleza;
+    font-size: 14px;
+}
+
+
+/* Main divs */
 .header {
-    background-color: antiquewhite;
+    background-color: #999e71;
+    height: 60px;
 }
 
-
-.section {
-    background-color: azure;
+.intro {
+    background-color: #6d7556;
     float: left;
-    width: 30%;
-    height: 100%;
+    width: 20%;
+    height: 100vh;
 }
-
 
 .main {
-    background-color: aqua;
+    background-color: #4a4f3b;
     float: left;
-    width: 70%;
-    height: 100%;
+    width: 80%;
+    height: 100vh;
 }
+
+
+/* Styling within .intro */
+.intro p {
+    font-size: large;
+    padding-left: 10px;
+}
+
+.intro section {
+    background-color: #999e71;
+    padding-left: 7px;
+    
+}
+
+.intro section p {
+    font-size: large;
+    padding-left: 2px;
+}
+
+.intro img {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+ /* Styling within .main */
+
+ /* career summary */
+.main .car_sum{
+    padding: 20px;
+}
+.main .car_sum table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #ffeaca;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .car_sum table td {
+    text-align: center;
+}
+
+.main .car_sum table tr:nth-child(even) {
+    background-color:  #999e71;
+}
+
+.main .car_sum table caption{
+    font-size: large;
+    padding-top: 10px;
+    text-align: left;
+}
+
+/* education & qualifications */
+.main .edu {
+    padding: 20px;
+}
+.main .edu table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #ffeaca;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .edu table tr:nth-child(even) {
+    background-color:  #999e71;
+}
+
+.main .edu table caption{
+    font-size: large;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.main .edu table td {
+    text-align: center;
+}
+
+ /* core skills */
+.main .skls p {
+    font-size: large;
+}
+
+.main .skls ul {
+    list-style-type: circle;
+}
+
+ /* Styling within .header */
+
