@@ -13,6 +13,10 @@ body a {
     color: antiquewhite;
 }
 
+body a:hover {
+    color: antiquewhite;
+}
+
 /* Main divs */
 .header {
     background-color: #999e71;
@@ -47,7 +51,7 @@ body a {
     
 }
 
-.intro section p {
+.intro section h2 {
     font-size: large;
     padding-left: 2px;
     padding-top: 20px;
