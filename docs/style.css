@@ -126,7 +126,7 @@ body {
 
  /* core skills */
  .main .skls {
-    padding: 40px 20px 20px 200px;
+    padding: 40px 20px 20px 100px;
     float: left;
     font-size: large;
  }
@@ -140,17 +140,27 @@ body {
 
 /* interests */
 .main .intrst {
-    padding: 40px 20px 20px 200px;
+    padding: 40px 20px 20px 100px;
     float: left;
 }
 .main .intrst ol {
     list-style-type: lower-roman;
     font-size: large;
+    display: inline;
+    float: left;
 }
 
 .main .intrst p {
     font-size: large;
 }
+
+.main .intrst a img {
+    width: 80px;
+    float: left;
+    padding: 20px;
+    border-radius: 50%;
+}
+
  /* Styling within .header */
 
 .header img {
