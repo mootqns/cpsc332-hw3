@@ -66,6 +66,7 @@ body a:hover {
     margin-right: auto;
     margin-top: 20px;
     display: block;
+    border-radius: 20%;
 }
 
  /* Styling within .main */
