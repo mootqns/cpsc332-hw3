@@ -35,14 +35,19 @@ body {
 .intro section {
     background-color: #999e71;
     padding-left: 7px;
+    padding-bottom: 30px;
     
 }
 
 .intro section p {
     font-size: large;
     padding-left: 2px;
+    padding-top: 20px;
 }
 
+.intro span {
+    font-size: 13px;
+}
 .intro img {
     width: 200px;
     margin-left: auto;
@@ -55,7 +60,7 @@ body {
 
  /* career summary */
 .main .car_sum{
-    padding: 20px;
+    padding: 8px 20px 20px 20px;
 }
 .main .car_sum table{
     table-layout: fixed;
@@ -82,8 +87,11 @@ body {
 
 /* education & qualifications */
 .main .edu {
+    padding-top: 2px;
     padding: 20px;
+    font-size: 15px;
 }
+
 .main .edu table{
     table-layout: fixed;
     width: 100%;
@@ -91,6 +99,10 @@ body {
     border: 3px solid #ffeaca;
     margin-left: auto;
     margin-right: auto;
+}
+
+.main .edu .qual {
+    padding-top: 40px;
 }
 
 .main .edu table tr:nth-child(even) {
@@ -108,6 +120,11 @@ body {
 }
 
  /* core skills */
+ .main .skls {
+    padding: 40px 20px 20px 200px;
+    float: left;
+    font-size: large;
+ }
 .main .skls p {
     font-size: large;
 }
@@ -116,5 +133,18 @@ body {
     list-style-type: circle;
 }
 
+/* interests */
+.main .intrst {
+    padding: 40px 20px 20px 200px;
+    float: left;
+}
+.main .intrst ol {
+    list-style-type: lower-roman;
+    font-size: large;
+}
+
+.main .intrst p {
+    font-size: large;
+}
  /* Styling within .header */
 
